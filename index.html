@@ -1,13 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="manifest" href="/manifest.json" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Transformar Temperatura</title>
   </head>
   <body>
-    <h1>Ola mundo!</h1>
+    <h1>Transforma ai vai</h1>
+
+    <section>
+      <div>
+        <h3>De:</h3>
+
+        <select name="" id="temp1">
+          <option value="C">C°</option>
+          <option value="F">F°</option>
+          <option value="K">K°</option>
+        </select>
+        <input type="number" id="num1" />
+      </div>
+      <br />
+      <div>
+        <h3>Para:</h3>
+        <select name="" id="temp2">
+          <option value="C">C°</option>
+          <option value="F">F°</option>
+          <option value="K">K°</option>
+        </select>
+      </div>
+      <button>Tranformar</button>
+
+      <h2>0</h2>
+    </section>
 
     <script>
       if ("serviceWorker" in navigator) {
@@ -21,5 +47,6 @@
           });
       }
     </script>
+    <script src="logic.js"></script>
   </body>
 </html>
