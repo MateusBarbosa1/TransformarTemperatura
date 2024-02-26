@@ -1,0 +1,15 @@
+{
+  "name": "TransformarTemperatura",
+  "short_name": "transforme °",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "images/icon.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ]
+}
